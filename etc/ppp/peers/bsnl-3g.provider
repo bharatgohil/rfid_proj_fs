@@ -1,0 +1,13 @@
+hide-password
+noauth
+debug
+defaultroute
+noipdefault
+user bsnlnet
+remotename bsnlnet
+ipparam bsnlnel
+persist
+usepeerdns
+/dev/ttyUSB0 115200 crtscts
+#replacedefaultroute
+connect 'chat -v -f /etc/ppp/chat/bsnl-3g.chat'
